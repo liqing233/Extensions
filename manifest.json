@@ -1,0 +1,25 @@
+{
+  "manifest_version"       : 2,
+  "name"                   : "插件平台兼容性",
+  "version"                : "1.0",
+  "description"            : "测试插件平台兼容性",
+  "background"             : {
+    "scripts": ["js/background.js"]
+  },
+  "permissions"            : [
+    "tabs",
+    "cookies",
+    "*://*/",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action"            : {
+    "default_icon": {
+      "16": "icons/cnblogs_19.png",
+      "38": "icons/cnblogs_38.png"
+    },
+    "default_popup"        : "popup/popup.html",
+    "default_title"        : "检测插件平台兼容性"
+  }
+}
+
