@@ -18,8 +18,8 @@
       "16": "icons/cnblogs_19.png",
       "38": "icons/cnblogs_38.png"
     },
-    "default_popup"        : "popup/popup.html",
-    "default_title"        : "检测插件平台兼容性"
+    "default_title"        : "检测插件平台兼容性",
+    "options_page"         : "html/optimize.html"
   }
 }
 
