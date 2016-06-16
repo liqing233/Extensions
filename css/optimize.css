@@ -1,0 +1,72 @@
+body {
+    overflow-y:auto !important;
+    font:12px/1 Helvetica,arial,sans-serif;
+    -webkit-user-select: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.up-create {
+    margin: 20px 0;
+    height: 55%;
+    padding-bottom: 5%;
+}
+
+.up-create textarea {
+    width: 30%;
+    height: 100%;
+    font-size: 14px;
+    color: #666;
+    padding: 10px 10px;
+    border: 1px solid #dbdee1;
+    overflow-y: auto;
+}
+
+.up-create p {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    color: #898989;
+}
+
+.down-create {
+    margin: 20px 0;
+    height: 40%;
+}
+
+/*select*/
+.down-create select {
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+}
+
+.down-create button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+.down-create input[name=check] {
+    width: 100%;
+    height: 100%;
+}
+
+.down-create p {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    color: #898989;
+}
+
+.down-create button {
+    width: 30%;
+    line-height: 36px;
+    font-size: 12px;
+    vertical-align: top;
+    margin-right: 2px;
+}
